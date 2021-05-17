@@ -1,0 +1,33 @@
+.list-items{
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.list{
+    margin:10px 20px;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(220,20,100,0.9);
+    border-radius: 7px;
+    font-weight: 500;
+    transition:all 300ms;
+}
+.list input{
+    background: transparent;
+    border:none;
+    color:#fff;
+}
+.list input:focus{
+    outline: none;
+}
+.list:hover{
+    display:absolute;
+    /* transform:scale(1.05); */
+    box-shadow: -2px -2px 3px 1px rgba(255,255,255,1);
+}
+.icon{
+    cursor: pointer;
+}
